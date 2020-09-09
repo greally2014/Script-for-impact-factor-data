@@ -1,4 +1,4 @@
-# Script-for-Journal-Impact-Factor-Data-from-Web-of-Science
+# Impact-Factor-Extraction-Tool-from-Wiley-Internship-in-Data-Analysis
 
 ## Description
 This script automates the extraction of impact factor data from Web of Science for journals in Wiley's "maths and stats" division and exports the data in tabular form to an Excel spreadsheet. 
