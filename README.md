@@ -1,6 +1,9 @@
-# Script-for-impact-factor-data
-Scrapes impact factor data on journals in Wiley's maths and stats division from Web of Science and exports it to an Excel Spreadsheet.  As it cycles on journal at a time it can be used at any time to update the data in the event of a new journal being added or the impact factor data for a new year being uploaded.
+# Script-for-Journal-Impact-Factor-Data-from-Web-of-Science
 
-You need to have BeautifulSoup, Pandas and Selenium modules installed.  The excel database the code used to obtain the journal names who's data was to be scraped contains confidential company information and cannot be uploaded to the repository.
+##Description
+This script automates the extraction of impact factor data from Web of Science for journals in Wiley's "maths and stats" division and exports the data in tabular form to an Excel Spreadsheet. 
 
-Note this script was written solely for the purpose of automating a task to improve my efficiency at work and isn't intended to appear 'fancy'.
+I wrote this script during my internship as a data analyst intern at Wiley in the summer of 2019. My team’s responsibility primarily consisted of analysing article citation data on Web of Science and drafting analytical reports for editorial conferences. I wrote this script to automate the data extraction process in order to improve the rate at which editoral report could be generated at conferences. 
+
+##Installation and Usage
+The script uses BeautifulSoup4 and Selenium for automates data extraction. Selenium was required because the data was contained in Javascript links. This script is not intened to be downloaded and reused. It requires company membership in order to access the required webpages for data extraction. I am uploading this to highlight my role as a data analyst during my internship in the summer of 2019.
